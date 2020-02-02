@@ -65,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				0408A3B823E73E7D00063880 /* Utilities */,
-				0408A3BA23E7467800063880 /* Components */,
 				0408A3BB23E7468700063880 /* Screens */,
 				0408A3B923E73EA600063880 /* Supporting */,
 				0408A3B023E6C4B900063880 /* Info.plist */,
@@ -86,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				0408A3B623E73E7800063880 /* Constants.swift */,
+				0408A3BA23E7467800063880 /* Components */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
