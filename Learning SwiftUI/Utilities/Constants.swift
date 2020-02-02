@@ -44,3 +44,10 @@ enum ScreenSize {
     static let maxLength = max(ScreenSize.width, ScreenSize.height)
     static let minLength = min(ScreenSize.width, ScreenSize.height)
 }
+
+
+enum SFSymbols {
+    static let account = "gear"
+    static let billing = "creditcard"
+    static let signout = "person.crop.circle"
+}
