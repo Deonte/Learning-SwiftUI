@@ -20,6 +20,8 @@ enum Colors {
     static let card5 = "card5"
     static let primary = "primary"
     static let secondary = "secondary"
+    static let menu = "menu"
+    static let menuImage = "menuImage"
 }
 
 

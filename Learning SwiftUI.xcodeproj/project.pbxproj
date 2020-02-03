@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		0408A3A323E6C4B500063880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408A3A223E6C4B500063880 /* AppDelegate.swift */; };
 		0408A3A523E6C4B500063880 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408A3A423E6C4B500063880 /* SceneDelegate.swift */; };
-		0408A3A723E6C4B500063880 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408A3A623E6C4B500063880 /* ContentView.swift */; };
+		0408A3A723E6C4B500063880 /* CertificatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408A3A623E6C4B500063880 /* CertificatesView.swift */; };
 		0408A3A923E6C4B900063880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0408A3A823E6C4B900063880 /* Assets.xcassets */; };
 		0408A3AC23E6C4B900063880 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0408A3AB23E6C4B900063880 /* Preview Assets.xcassets */; };
 		0408A3AF23E6C4B900063880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0408A3AD23E6C4B900063880 /* LaunchScreen.storyboard */; };
 		0408A3B723E73E7800063880 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408A3B623E73E7800063880 /* Constants.swift */; };
 		043A6CF123E76AD9006F4A91 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A6CF023E76AD9006F4A91 /* MenuView.swift */; };
 		043A6CF423E76E24006F4A91 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A6CF323E76E24006F4A91 /* MenuRow.swift */; };
+		043A6CF623E78DAF006F4A91 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A6CF523E78DAF006F4A91 /* Home.swift */; };
+		043A6CF823E79D2C006F4A91 /* AvatarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A6CF723E79D2C006F4A91 /* AvatarButton.swift */; };
+		043A6CFD23E79EB5006F4A91 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A6CFC23E79EB5006F4A91 /* HomeView.swift */; };
+		043A6CFF23E7A707006F4A91 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A6CFE23E7A707006F4A91 /* SectionView.swift */; };
 		04F168E723E7473A00871825 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F168E623E7473A00871825 /* CardView.swift */; };
 		04F168E923E74B6B00871825 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F168E823E74B6B00871825 /* TitleView.swift */; };
 		04F168EB23E74DB700871825 /* BottomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F168EA23E74DB700871825 /* BottomCardView.swift */; };
@@ -25,7 +29,7 @@
 		0408A39F23E6C4B500063880 /* Learning SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0408A3A223E6C4B500063880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0408A3A423E6C4B500063880 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0408A3A623E6C4B500063880 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0408A3A623E6C4B500063880 /* CertificatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatesView.swift; sourceTree = "<group>"; };
 		0408A3A823E6C4B900063880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0408A3AB23E6C4B900063880 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0408A3AE23E6C4B900063880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,6 +37,10 @@
 		0408A3B623E73E7800063880 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		043A6CF023E76AD9006F4A91 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		043A6CF323E76E24006F4A91 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
+		043A6CF523E78DAF006F4A91 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		043A6CF723E79D2C006F4A91 /* AvatarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarButton.swift; sourceTree = "<group>"; };
+		043A6CFC23E79EB5006F4A91 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		043A6CFE23E7A707006F4A91 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		04F168E623E7473A00871825 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		04F168E823E74B6B00871825 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		04F168EA23E74DB700871825 /* BottomCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCardView.swift; sourceTree = "<group>"; };
@@ -108,11 +116,9 @@
 		0408A3BA23E7467800063880 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				04F168E623E7473A00871825 /* CardView.swift */,
-				043A6CF023E76AD9006F4A91 /* MenuView.swift */,
-				043A6CF323E76E24006F4A91 /* MenuRow.swift */,
-				04F168EA23E74DB700871825 /* BottomCardView.swift */,
-				04F168E823E74B6B00871825 /* TitleView.swift */,
+				043A6CFA23E79DF1006F4A91 /* Views */,
+				043A6CF923E79DE4006F4A91 /* Buttons */,
+				043A6CFB23E79E0B006F4A91 /* Headers */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -120,9 +126,39 @@
 		0408A3BB23E7468700063880 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				0408A3A623E6C4B500063880 /* ContentView.swift */,
+				0408A3A623E6C4B500063880 /* CertificatesView.swift */,
+				043A6CF523E78DAF006F4A91 /* Home.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		043A6CF923E79DE4006F4A91 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				043A6CF723E79D2C006F4A91 /* AvatarButton.swift */,
+				043A6CF323E76E24006F4A91 /* MenuRow.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		043A6CFA23E79DF1006F4A91 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04F168E623E7473A00871825 /* CardView.swift */,
+				043A6CFE23E7A707006F4A91 /* SectionView.swift */,
+				043A6CFC23E79EB5006F4A91 /* HomeView.swift */,
+				043A6CF023E76AD9006F4A91 /* MenuView.swift */,
+				04F168EA23E74DB700871825 /* BottomCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		043A6CFB23E79E0B006F4A91 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				04F168E823E74B6B00871825 /* TitleView.swift */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,12 +233,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0408A3A323E6C4B500063880 /* AppDelegate.swift in Sources */,
+				043A6CF823E79D2C006F4A91 /* AvatarButton.swift in Sources */,
 				043A6CF123E76AD9006F4A91 /* MenuView.swift in Sources */,
+				043A6CF623E78DAF006F4A91 /* Home.swift in Sources */,
 				043A6CF423E76E24006F4A91 /* MenuRow.swift in Sources */,
 				04F168EB23E74DB700871825 /* BottomCardView.swift in Sources */,
 				0408A3A523E6C4B500063880 /* SceneDelegate.swift in Sources */,
-				0408A3A723E6C4B500063880 /* ContentView.swift in Sources */,
+				0408A3A723E6C4B500063880 /* CertificatesView.swift in Sources */,
+				043A6CFF23E7A707006F4A91 /* SectionView.swift in Sources */,
 				0408A3B723E73E7800063880 /* Constants.swift in Sources */,
+				043A6CFD23E79EB5006F4A91 /* HomeView.swift in Sources */,
 				04F168E723E7473A00871825 /* CardView.swift in Sources */,
 				04F168E923E74B6B00871825 /* TitleView.swift in Sources */,
 			);
