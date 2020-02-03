@@ -10,6 +10,8 @@ import SwiftUI
 
 struct HomeView: View {
     @Binding var showProfile: Bool
+    @State var showUpadate = false
+    
     var body: some View {
         VStack {
             HStack {
@@ -19,6 +21,22 @@ struct HomeView: View {
                 Spacer()
                 
                 AvatarButton(showProfile: $showProfile)
+                
+                Button(action: { self.showUpadate.toggle() }) {
+                    Image(systemName: SFSymbols.notifications)
+                        .renderingMode(.original)
+                        .font(.system(size: 16, weight: .medium))
+                        .frame(width: 36, height: 36)
+                        .background(Color.white)
+                        .clipShape(Circle())
+                        .shadow(color: Color.black.opacity(0.1), radius: 1, x: 0, y: 1)
+                        .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 10)
+                }
+                .sheet(isPresented: $showUpadate) {
+                    CertificatesView()
+                }
+                    
+                
             }
             .padding(.horizontal)
             .padding(.leading, 14)
@@ -26,8 +44,12 @@ struct HomeView: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 30) {
-                    ForEach(0 ..< 5) { item in
-                        SectionView()
+                    ForEach(sectionData) { item in
+                        GeometryReader { geometry in
+                            SectionView(section: item)
+                                .rotation3DEffect(.degrees(Double(geometry.frame(in: .global).minX - 30) / -30), axis: (x: 0 , y: 10, z: 0))
+                        }
+                        .frame(width: 275, height: 275)
                     }
                 }
                 .padding(30)

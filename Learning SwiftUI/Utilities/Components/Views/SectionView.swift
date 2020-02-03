@@ -9,21 +9,23 @@
 import SwiftUI
 
 struct SectionView: View {
+    var section: Section
+    
     var body: some View {
         VStack {
             HStack(alignment: .top) {
-                Text("Prototype designs in SwiftUI")
+                Text(section.title)
                     .font(.system(size: 24, weight: .bold))
                     .frame(width: 160, alignment: .leading)
                     .foregroundColor(.white)
                 Spacer()
-                Image(Images.logo1)
+                Image(section.logo)
             }
             
-            Text("18 Sections".uppercased())
+            Text(section.text.uppercased())
                 .frame(maxWidth: .infinity, alignment: .leading)
             
-            Image(Images.card1)
+            Image(section.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 210)
@@ -31,14 +33,14 @@ struct SectionView: View {
         .padding(.top, 20)
         .padding(.horizontal, 20)
         .frame(width: 275, height: 275)
-        .background(Color(Colors.card1))
+        .background(Color(section.color))
         .cornerRadius(30)
-        .shadow(color: Color(Colors.card1).opacity(0.3), radius: 20, x: 0, y: 20)
+        .shadow(color: Color(section.color).opacity(0.3), radius: 20, x: 0, y: 20)
     }
 }
 
 struct SectionView_Previews: PreviewProvider {
     static var previews: some View {
-        SectionView()
+        SectionView(section: sectionData.first!)
     }
 }

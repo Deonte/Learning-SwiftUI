@@ -52,4 +52,5 @@ enum SFSymbols {
     static let account = "gear"
     static let billing = "creditcard"
     static let signout = "person.crop.circle"
+    static let notifications = "bell"
 }

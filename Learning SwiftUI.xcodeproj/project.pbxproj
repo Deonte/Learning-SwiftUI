@@ -20,6 +20,7 @@
 		043A6CF823E79D2C006F4A91 /* AvatarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A6CF723E79D2C006F4A91 /* AvatarButton.swift */; };
 		043A6CFD23E79EB5006F4A91 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A6CFC23E79EB5006F4A91 /* HomeView.swift */; };
 		043A6CFF23E7A707006F4A91 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A6CFE23E7A707006F4A91 /* SectionView.swift */; };
+		043A6D0223E7BAE5006F4A91 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A6D0123E7BAE5006F4A91 /* Sections.swift */; };
 		04F168E723E7473A00871825 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F168E623E7473A00871825 /* CardView.swift */; };
 		04F168E923E74B6B00871825 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F168E823E74B6B00871825 /* TitleView.swift */; };
 		04F168EB23E74DB700871825 /* BottomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F168EA23E74DB700871825 /* BottomCardView.swift */; };
@@ -41,6 +42,7 @@
 		043A6CF723E79D2C006F4A91 /* AvatarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarButton.swift; sourceTree = "<group>"; };
 		043A6CFC23E79EB5006F4A91 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		043A6CFE23E7A707006F4A91 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		043A6D0123E7BAE5006F4A91 /* Sections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
 		04F168E623E7473A00871825 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		04F168E823E74B6B00871825 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		04F168EA23E74DB700871825 /* BottomCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCardView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		0408A3A123E6C4B500063880 /* Learning SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				043A6D0023E7BABA006F4A91 /* Model */,
 				0408A3B823E73E7D00063880 /* Utilities */,
 				0408A3BB23E7468700063880 /* Screens */,
 				0408A3B923E73EA600063880 /* Supporting */,
@@ -161,6 +164,14 @@
 			path = Headers;
 			sourceTree = "<group>";
 		};
+		043A6D0023E7BABA006F4A91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				043A6D0123E7BAE5006F4A91 /* Sections.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0408A3A323E6C4B500063880 /* AppDelegate.swift in Sources */,
+				043A6D0223E7BAE5006F4A91 /* Sections.swift in Sources */,
 				043A6CF823E79D2C006F4A91 /* AvatarButton.swift in Sources */,
 				043A6CF123E76AD9006F4A91 /* MenuView.swift in Sources */,
 				043A6CF623E78DAF006F4A91 /* Home.swift in Sources */,
